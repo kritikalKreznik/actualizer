@@ -1,4 +1,3 @@
-{
   "id": "actualizer",
   "title": "Actualizer",
   "version": "1.0.0",
@@ -117,36 +116,7 @@
 		]
   }
   ],
-    "flags": {
-		"actualizer": {
-			"pf2e-homebrew": {
-				"equipmentTraits": {
-					"mystic": {
-						"label": "Mystic",
-						"description": "A special energy unlike most others. Used by certain feats of the Actualizer class."
-					}
-				},
-				"featTraits": {
-					"actualizer": "Actualizer",
-					"mystic": "Mystic",
-					"quantum": "Quantum"
-				},
-				"spellTraits": {
-					"actualizer": "Actualizer",
-					"mystic": "Mystic",
-					"quantum": "Quantum"
-				},
-				"weaponTraits": {
-					"mystic": {
-					"label": "Mystic",
-					"description": "A special energy unlike most others. Used by certain feats of the Actualizer class."
-					}
-		 
-				}
-			}
-		}
-	}
-"url": "https://github.com/kritikalKreznik/actualizer",
-"manifest": "https://raw.githubusercontent.com/kritikalKreznik/actualizer/main/module.json",
-"download": "https://github.com/kritikalKreznik/actualizer/archive/refs/heads/main.zip"
+	"url": "https://github.com/kritikalKreznik/actualizer",
+	"manifest": "https://raw.githubusercontent.com/kritikalKreznik/actualizer/master/module.json",
+	"download": "https://github.com/kritikalKreznik/actualizer/archive/refs/heads/main.zip"
 }
