@@ -145,5 +145,8 @@
 				}
 			}
 		}
-	}   
+	}
+	"url": "https://github.com/kritikalKreznik/actualizer",
+	"manifest": "https://raw.githubusercontent.com/kritikalKreznik/actualizer/master/module.json",
+	"download": "https://github.com/kritikalKreznik/actualizer/archive/refs/heads/main.zip"
 }
