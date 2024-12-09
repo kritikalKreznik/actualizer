@@ -116,5 +116,8 @@
 		"actualizer-spells"
 		]
   }
-  ]
+  ],
+	"url": "https://github.com/kritikalKreznik/actualizer",
+	"manifest": "https://raw.githubusercontent.com/kritikalKreznik/actualizer/master/module.json",
+	"download": "https://github.com/kritikalKreznik/actualizere/archive/refs/heads/main.zip"
 }
