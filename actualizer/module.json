@@ -1,0 +1,120 @@
+{
+  "id": "actualizer",
+  "title": "Actualizer",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "pf2e-dailies",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Actualizer Class for PF2e",
+  "authors": [
+    {
+      "name": "krsnik",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+	  "label": "Actions",
+      "type": "Item",
+      "name": "actualizer-actions",
+      "path": "./packs/actions",
+      "system": "pf2e",
+      "package": "actualizer",
+	  "ownership": {
+		  "PLAYER": "OBSERVER",
+		  "ASSISTANT": "OWNER"
+	    }
+    },
+	{
+	  "label": "Class",
+      "type": "Item",
+      "name": "actualizer-class",
+      "path": "./packs/class",
+      "system": "pf2e",
+      "package": "actualizer",
+	  "ownership": {
+		  "PLAYER": "OBSERVER",
+		  "ASSISTANT": "OWNER"
+	  }
+  },
+    {
+	  "label": "Effects",
+      "type": "Item",
+      "name": "actualizer-effects",
+      "path": "./packs/effects",
+      "system": "pf2e",
+      "package": "actualizer",
+	  "ownership": {
+		  "PLAYER": "OBSERVER",
+		  "ASSISTANT": "OWNER"
+	  }
+  },
+  {
+	  "label": "Feats",
+      "type": "Item",
+      "name": "actualizer-feats",
+      "path": "./packs/feats",
+      "system": "pf2e",
+      "package": "actualizer",
+	  "ownership": {
+		  "PLAYER": "OBSERVER",
+		  "ASSISTANT": "OWNER"
+	  }
+  },
+    {
+	  "label": "Features",
+      "type": "Item",
+      "name": "actualizer-features",
+      "path": "./packs/features",
+      "system": "pf2e",
+      "package": "actualizer",
+	  "ownership": {
+		  "PLAYER": "OBSERVER",
+		  "ASSISTANT": "OWNER"
+	  }
+  },
+  {
+	  "label": "Spells",
+      "type": "Item",
+      "name": "actualizer-spells",
+      "path": "./packs/spells",
+      "system": "pf2e",
+      "package": "actualizer",
+	  "ownership": {
+		  "PLAYER": "OBSERVER",
+		  "ASSISTANT": "OWNER"
+	  }
+  }
+  ],
+  "packFolders": [
+  {
+	  "name": "Actualizer Content",
+	  "sorting": "m",
+	  "packs": [
+		"actualizer-actions",
+		"actualizer-class",
+		"actualizer-effects",
+		"actualizer-feats",
+		"actualizer-features",
+		"actualizer-spells"
+		]
+  }
+  ]
+}
