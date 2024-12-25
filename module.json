@@ -31,91 +31,104 @@
   	],
   	"packs": [
     			{
-	  			"label": "Actions",
+					"label": "Actions",
       				"type": "Item",
       				"name": "actualizer-actions",
       				"path": "./packs/actions",
       				"system": "pf2e",
       				"package": "actualizer",
-	  			"ownership": {
+					"ownership": {
 		  			"PLAYER": "OBSERVER",
 		  			"ASSISTANT": "OWNER"
 	    			}
     			},
-			{
-	  			"label": "Class",
+				{
+					"label": "Class",
       				"type": "Item",
       				"name": "actualizer-class",
       				"path": "./packs/class",
       				"system": "pf2e",
       				"package": "actualizer",
-	  			"ownership": {
+					"ownership": {
 		  			"PLAYER": "OBSERVER",
 		  			"ASSISTANT": "OWNER"
-	  			}
-  			},
-    			{
-	  			"label": "Effects",
+					}
+				},
+				{
+					"label": "Effects",
       				"type": "Item",
       				"name": "actualizer-effects",
       				"path": "./packs/effects",
       				"system": "pf2e",
       				"package": "actualizer",
-	  			"ownership": {
+					"ownership": {
 		  			"PLAYER": "OBSERVER",
 		  			"ASSISTANT": "OWNER"
-	  			}
-  			},
-  			{
-	 	 		"label": "Feats",
+					}
+				},
+				{
+					"label": "Equipment",
+      				"type": "Item",
+      				"name": "actualizer-equipment",
+      				"path": "./packs/equipment",
+      				"system": "pf2e",
+      				"package": "actualizer",
+					"ownership": {
+		  			"PLAYER": "OBSERVER",
+		  			"ASSISTANT": "OWNER"
+					}
+				},
+				{
+					"label": "Feats",
       				"type": "Item",
       				"name": "actualizer-feats",
       				"path": "./packs/feats",
       				"system": "pf2e",
       				"package": "actualizer",
-	  			"ownership": {
+					"ownership": {
 		  			"PLAYER": "OBSERVER",
 		  			"ASSISTANT": "OWNER"
-	  			}
-  			},
+					}
+				},
     			{
-	  			"label": "Features",
+					"label": "Features",
       				"type": "Item",
       				"name": "actualizer-features",
       				"path": "./packs/features",
       				"system": "pf2e",
       				"package": "actualizer",
-	  			"ownership": {
+					"ownership": {
 		  			"PLAYER": "OBSERVER",
 		  			"ASSISTANT": "OWNER"
-	  			}
-  			},
-  			{
-	  			"label": "Spells",
+					}
+				},
+				{
+					"label": "Spells",
       				"type": "Item",
       				"name": "actualizer-spells",
       				"path": "./packs/spells",
       				"system": "pf2e",
       				"package": "actualizer",
-	  			"ownership": {
+					"ownership": {
 		  			"PLAYER": "OBSERVER",
 		  			"ASSISTANT": "OWNER"
-	  			}
-  			}
+					}
+				}
   	],
   	"packFolders": [
-  				{
-	  				"name": "Actualizer Content",
-	  				"sorting": "m",
-	  				"packs": [
-						"actualizer-actions",
-						"actualizer-class",
-						"actualizer-effects",
-						"actualizer-feats",
-						"actualizer-features",
-						"actualizer-spells"
-					]
-  				}
+					{
+						"name": "Actualizer Content",
+						"sorting": "m",
+						"packs": [
+							"actualizer-actions",
+							"actualizer-class",
+							"actualizer-effects",
+							"actualizer-equipment",
+							"actualizer-feats",
+							"actualizer-features",
+							"actualizer-spells"
+						]
+					}
   	],
 	"flags": {
 		"actualizer": {
@@ -130,6 +143,12 @@
 					"actualizer": "Actualizer",
 					"mystic": "Mystic",
 					"quantum": "Quantum"
+				},
+				"shieldTraits": {
+					"mystic": {
+						"label": "Mystic",
+						"description": "A special energy unlike most others. Used by certain feats of the Actualizer class."
+					}
 				},
 				"spellTraits": {
 					"actualizer": "Actualizer",
