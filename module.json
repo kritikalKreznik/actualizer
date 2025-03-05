@@ -103,6 +103,30 @@
 					}
 				},
 				{
+					"label": "Notes",
+      				"type": "JournalEntry",
+      				"name": "actualizer-notes",
+      				"path": "./packs/notes",
+      				"system": "pf2e",
+      				"package": "actualizer",
+					"ownership": {
+		  			"PLAYER": "OBSERVER",
+		  			"ASSISTANT": "OWNER"
+					}
+				},
+				{
+					"label": "Macros",
+      				"type": "Macro",
+      				"name": "actualizer-macros",
+      				"path": "./packs/macros",
+      				"system": "pf2e",
+      				"package": "actualizer",
+					"ownership": {
+		  			"PLAYER": "OBSERVER",
+		  			"ASSISTANT": "OWNER"
+					}
+				},
+				{
 					"label": "Spells",
       				"type": "Item",
       				"name": "actualizer-spells",
@@ -126,6 +150,8 @@
 							"actualizer-equipment",
 							"actualizer-feats",
 							"actualizer-features",
+							"actualizer-notes",
+							"actualizer-macros",
 							"actualizer-spells"
 						]
 					}
@@ -166,5 +192,7 @@
 	},
 	"url": "https://github.com/kritikalKreznik/actualizer",
 	"manifest": "https://raw.githubusercontent.com/kritikalKreznik/actualizer/master/module.json",
-	"download": "https://github.com/kritikalKreznik/actualizer/archive/refs/heads/main.zip"
+	"download": "https://github.com/kritikalKreznik/actualizer/archive/refs/heads/main.zip",
+	"esmodules": [
+	]
 }
